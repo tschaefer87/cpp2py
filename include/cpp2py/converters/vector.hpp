@@ -32,7 +32,7 @@ namespace cpp2py {
         return true;
       }
     _false:
-      if (raise_exception) { PyErr_SetString(PyExc_TypeError, "Cannot convert to std::vector"); }
+      //if (raise_exception) { PyErr_SetString(PyExc_TypeError, "Cannot convert to std::vector"); }
       return false;
     }
 
